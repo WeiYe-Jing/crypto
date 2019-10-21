@@ -25,8 +25,8 @@ public class TestController {
     }
 }
 ```
-浏览器打开http://localhost:8089/doc.html#/%E9%BB%98%E8%AE%A4%E6%8E%A5%E5%8F%A3/TestController/testUsingPOST
+#### 浏览器打开http://localhost:8089/doc.html
 ![](https://github.com/WeiYe-Jing/crypto/blob/master/img/20191021134827.png)
-后台输出日志
+#### 后台输出日志
 ![](https://github.com/WeiYe-Jing/crypto/blob/master/img/20191021134225.png)
 
