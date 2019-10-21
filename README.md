@@ -4,9 +4,10 @@
 
 ## 用法
 
-1.下载源码，修改数据库配置，启动
-2.加DecryptRequest 和 EncryptResponse 注解即可,可以放在Controller的类和方法上,其中一个为false就不执行了。像这样：
+#### 1.下载源码，修改数据库配置，启动
+#### 2.加DecryptRequest 和 EncryptResponse 注解即可,可以放在Controller的类和方法上,其中一个为false就不执行了。像这样：
 
+```
 @Log4j2
 @RestController
 @Api(tags = "TestController", description = "测试")
@@ -23,3 +24,6 @@ public class TestController {
         return CommonResult.success(category);
     }
 }
+```
+
+
