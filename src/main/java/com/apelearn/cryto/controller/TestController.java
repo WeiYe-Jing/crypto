@@ -27,7 +27,9 @@ public class TestController {
     @ApiOperation("test")
     @RequestMapping(value = "/test", method = RequestMethod.POST)
     public CommonResult<Category> test(@RequestBody Category category) {
-        log.info("分类名称" + category.getCategoryName());
+        log.info("分类名称:" + category.getCategoryName());
+        log.info("时间:"+category.getCreateTime());
+        log.info("ID:"+category.getId());
         return CommonResult.success(category);
     }
 }
