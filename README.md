@@ -30,3 +30,6 @@ public class TestController {
 #### 后台输出日志
 ![](https://github.com/WeiYe-Jing/crypto/blob/master/img/20191021134225.png)
 
+
+##### 参考文档:https://gitee.com/xxssyyyyssxx/affect-inoutput
+
